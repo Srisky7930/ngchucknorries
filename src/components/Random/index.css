@@ -1,0 +1,59 @@
+.trigger-button {
+  height: 150px;
+  width: 250px;
+  border-radius: 10px;
+  border-width: 0px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+  color: #1c2d3b;
+  font-weight: bold;
+  font-family: 'Roboto';
+  outline: none;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 576px) {
+  .trigger-button {
+    color: #1c2d3b;
+    font-family: 'Roboto';
+    font-size: 10px;
+    height: 20px;
+    width: 100px;
+  }
+}
+
+.trigger-button:hover {
+  background-color: #868a8f;
+  color: white;
+}
+
+.span-text {
+  color: #1c2d3b;
+  font-size: 10px;
+}
+
+@media screen and (max-width: 576px) {
+  .span-text {
+    display: none;
+  }
+}
+
+.popup-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #868a8f, #1d2026);
+  height: 300px;
+}
+
+.close-button {
+  background-color: black;
+  color: #ffff;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,54 @@
+.next-joke {
+  background-color: blue;
+  height: 40px;
+  width: 400px;
+  border-width: 0px;
+  margin-top: 30px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  cursor: pointer;
+}
+
+@media screen and (max-width: 576px) {
+  .next-joke {
+    background-color: blue;
+    height: 40px;
+    width: 100px;
+    border-width: 0px;
+    margin-top: 30px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Roboto';
+    cursor: pointer;
+  }
+}
+
+.random-jokes-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.joke-text {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 30px;
+  text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+  .joke-text {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 10px;
+    text-align: center;
+    width: 200px;
+    padding: 10px;
+  }
+}
